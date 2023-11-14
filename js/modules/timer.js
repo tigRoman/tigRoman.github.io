@@ -54,7 +54,7 @@ function timer() {
         updateClock(); 
 
         function updateClock() {
-        const t = getTimeRemaining(deadline);
+        const t = getTimeRemaining(endtime);
 
         days.innerHTML = getZero(t.days);
         hours.innerHTML = getZero(t.hours);
