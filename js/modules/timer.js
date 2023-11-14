@@ -1,6 +1,6 @@
 function timer() {
     
-    const deadline = '2023-30-11';
+    const deadline = '2023-12-31';
 
     function getTimeRemaining(endtime) {
         //создаем переменную в которой вычисляем разницу между 
